@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>教科互動任務</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ml5/0.6.0/ml5.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      padding: 1em;
+    }
+    #sketch-holder {
+      margin: 0 auto;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>教科互動任務</h1>
+    <p>請允許使用鏡頭，並點擊下方開始按鈕</p>
+    <button id="start-button">開始互動</button>
+    <div id="sketch-holder" style="display: none;"></div>
+  </main>
+  <script src="sketch.js"></script>
+</body>
+</html>
